@@ -1,0 +1,157 @@
+body {
+    font-family: 'VT323', monospace;
+    background-color: rgb(102, 0, 0);
+    margin: 0px;
+    line-height: 1.6;
+}
+
+.headeris {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(62, 0, 0);
+}
+
+.pav {
+    font-size: 48px;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+  background-color: var(--header);
+}
+
+.pav {
+  font-size: 70px;
+  color: rgb(255, 166, 1);
+}
+
+/* MAIN */
+
+.main {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.taskai {
+  margin-bottom: 15px;
+}
+
+.rezultatas {
+  font-size: 52px;
+  color: rgb(249, 148, 53);
+}
+
+.taskuPran {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.taskuLenta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.lenta {
+    width: 170px;
+}
+
+.dbTaskai {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.mygtukai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: black;
+}
+
+.kvMygtukas {
+    width: 130px;
+    height: 130px;
+}
+
+.btn:hover {
+    background-color: rgb(46, 0, 0);
+}
+
+.btn:active {
+    background-color: rgb(77, 0, 0);
+}
+
+.zenklas {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+/* MODALS */
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    user-select: none;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.btn-restart {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 100px;
+    font-family: 'VT323', monospace;
+    color: rgb(249, 148, 53);
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(77, 0, 0);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.overlay.active {
+    display: block;
+}
+

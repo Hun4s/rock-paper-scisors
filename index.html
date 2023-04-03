@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 💩Vaskink</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="headeris">
+        <h1 class="pav">NEPRASILEISK NUO KOMPO!</h1>
+    </header>
+    <main class="main">
+        <div class="taskai">
+            <h2 class="rezultatas" id="rezultatasID">Ką rodysi?</h2>
+            <h3 class="taskuPran" id="taskuPranID">
+                Pirmas surinkęs 5 taškus laimi
+            </h3>
+        
+            <div class="taskuLenta" id="taskuLentaID">
+                <div class="lenta">
+                    <div class="zenklas" id="zaidejoZenklasID">?</div>
+                    <p class="dbTaskai" id="zaidejoTaskaiID">Zaidėjas: 0</p>
+                </div>
+                <div class="lenta">
+                    <div class="zenklas" id="kompoZenklasID">?</div>
+                    <p class="dbTaskai" id="kompoTaskaiID">Kompiuteris: 0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mygtukai">
+            <button class="btn kvMygtukas" id="akmuoBtnID">
+                <dic class="zenklas">✊</dic>
+            </button>
+            <button class="btn kvMygtukas" id="lapasBtnID">
+                <dic class="zenklas">✋</dic>
+            </button>
+            <button class="btn kvMygtukas" id="zirklesBtnID">
+                <dic class="zenklas">✌️</dic>
+            </button>
+        </div>
+    </main>
+    <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button class="btn btn-restart" id="restartBtn">Bandyk vėl!</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <script src='app.js'></script>
+</body>
+</html>
